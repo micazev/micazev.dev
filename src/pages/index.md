@@ -5,14 +5,9 @@ image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Oi, tudo bem?
-  description: >
-    Meu nome é Michelle, sou desenvolvedora de automações e adoro explorar o mundo front end. Nesse site você encontra dicas de RPA e um pouco de outras coisas que me interessam.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: ">>"
+  description: .
+description: .
 intro:
   blurbs:
     - image: /img/coffee.png
