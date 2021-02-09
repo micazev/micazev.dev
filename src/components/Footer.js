@@ -14,16 +14,8 @@ const Footer = class extends React.Component {
         <div className="content has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-5">
-               <b>Michelle Azevedo</b>
-               <p>Eu sou a Mi, @micazev no mundo online. Desenvolvo automações de processos, principalmente usando o software UiPath, 
-                 mas curso muito o mundo front end. Nesse site eu escrevo pequenos tutoriais sobre programação.
-               </p>
-                
-              </div>
-              <div className="column is-3 social">
-               <b>Newsletter</b>
-              </div>
+             
+            
             </div>
           </div>
         </div>
