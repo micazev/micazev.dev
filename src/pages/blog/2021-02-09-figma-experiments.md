@@ -1,17 +1,15 @@
 ---
 templateKey: blog-post
-title: "Figma experiments "
+title: Experimentos com Figma
 date: 2021-02-09T13:51:17.503Z
-description: Constant update of my figma lerning curve.
+description: Contante atualização da minha curva de aprendizado com a ferramenta Figma.
 featuredpost: true
 featuredimage: /img/background-wave-layers.png
 tags:
   - figma
   - ""
 ---
-
-
-Esse é um post em constante atualização, coloco aqui meus experimentos com figma, o resultado com uma pequena frase (hopefully) instrutiva.
+Esse é um post em constante atualização, coloco aqui meus experimentos de webdesign com a ferramenta  figma. O resultado vem com uma pequena frase que me lembre alguma parte importante do processo de criação, com sorte, ela pode ser instrutiva para outras pessoas também. 
 
 ## Efeito zoom
 
