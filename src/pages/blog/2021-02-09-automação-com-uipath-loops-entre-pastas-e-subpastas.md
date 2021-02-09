@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Automação com UiPath: Loops entre pastas e subpastas"
+title: "Automação com UiPath: Dois tipos de Loops entre subpastas e arquivos"
 date: 2021-02-09T15:05:02.645Z
 description: Duas formas de processar o conteúdo dentro de pastas e subpastas.
 featuredpost: true
@@ -11,8 +11,8 @@ tags:
 ---
 Nesse post vamos fazer dois loops:
 
-* Entrar em uma pasta e abrir todas suas subpastas
-* Entrar em cada arquivo dentro de cada uma dessas subpastas
+* Abrir subpastas através de um 'Loop externo'
+* Entrar em cada arquivo dentro de cada uma dessas subpastas através da atividade 'For Each'
 
 Para exemplo desse post, vamos imaginar que nosso cliente envia via FTP uma pasta por dia com vários CSV dentro. 
 
@@ -83,7 +83,7 @@ Por fim, vamos transferir esse arquivo para outra pasta. Para isso, primeiro pre
 str_tempp = System.Text.RegularExpressions.Regex.match(item.tostring, "(?<=\d{4}-\d{2}-\d{2}).*").ToString
 ```
 
-No meu caso o caminho do arquivo tem um padrão *C:\computador\usuario\...\2021-02-01\nomedoarquivo.csv*, então a regex acima pega qualquer informação á partir da última barra. Enfim, em seguida utilizar a atividade move file:
+No meu caso o caminho do arquivo tem um padrão *C:\computador\usuario...\2021-02-01\nomedoarquivo.csv*, então a regex acima pega qualquer informação á partir da última barra. Enfim, em seguida utilizar a atividade move file:
 
 ![Atividade UiPath - Move File](/img/uipath-act-8.png "Atividade UiPath - Move File")
 
