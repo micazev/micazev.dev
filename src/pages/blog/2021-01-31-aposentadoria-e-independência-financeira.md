@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Aposentadoria e Independência financeira
 date: 2021-01-31T19:22:57.006Z
 description: "Um compilado feito aos 30 anos de ideias sobre segurança financeira:"
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-index.jpg
 tags:
   - planejamentos
