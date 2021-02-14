@@ -7,7 +7,7 @@ class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map((post) => (
-      <li key={post.node.fields.slug}>
+      <li className="box" key={post.node.fields.slug}>
         <Link to={post.node.fields.slug}>
           <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
         </Link>
@@ -33,7 +33,7 @@ class TagRoute extends React.Component {
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
                 <p>
-                  <Link to="/tags/">Browse all tags</Link>
+                  <Link to="/tags/">Ver todos os assuntos</Link>
                 </p>
               </div>
             </div>
