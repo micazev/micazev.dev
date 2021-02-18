@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Experimentos com Figma
 date: 2021-02-09T13:51:17.503Z
-description: Contante atualização da minha curva de aprendizado com a ferramenta Figma.
+description: Constante atualização da minha curva de aprendizado com a ferramenta Figma.
 featuredpost: true
 featuredimage: /img/background-wave-layers.png
 tags:
