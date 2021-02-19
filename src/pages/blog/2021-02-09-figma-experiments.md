@@ -1,15 +1,15 @@
 ---
 templateKey: blog-post
-title: Experimentos com Figma
+title: Figma Tips & Tricks
 date: 2021-02-09T13:51:17.503Z
-description: Constante atualização da minha curva de aprendizado com a ferramenta Figma.
+description: Explorando possibilidades com Figma.
 featuredpost: true
 featuredimage: /img/background-wave-layers.png
 tags:
   - figma
   - ""
 ---
-Esse é um post em constante atualização, coloco aqui meus experimentos de webdesign com a ferramenta  figma. O resultado vem com uma pequena frase que me lembre alguma parte importante do processo de criação, com sorte, ela pode ser instrutiva para outras pessoas também. 
+Esse é um post em constante atualização, coloco aqui meus experimentos com a ferramenta  figma. O resultado vem com uma pequena frase que me lembre alguma parte importante do processo de criação, com sorte, ela pode ser instrutiva para outras pessoas também. 
 
 ## Efeito zoom
 
